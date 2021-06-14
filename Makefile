@@ -6,12 +6,12 @@ CGO_ENABLED=0
 
 build:
 	@[ -d build ] || mkdir -p build
-	go build ${LDFLAGS} -o build/seslog-server src/cmd/seslog-server/main.go
+	go build ${LDFLAGS} -o build/seslog-server cmd/seslog-server/main.go
 	@file  build/seslog-server
 	@du -h build/seslog-server
 
 br:
-	go build --race -o build/seslog-server -v -ldflags "-s" src/cmd/seslog-server/main.go
+	go build --race -o build/seslog-server -v -ldflags "-s" cmd/seslog-server/main.go
 
 d:
 	docker-compose -f dockerfiles/docker-compose.yml rm --force
