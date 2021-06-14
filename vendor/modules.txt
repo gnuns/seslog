@@ -1,0 +1,50 @@
+# github.com/ClickHouse/clickhouse-go v1.4.5
+## explicit
+github.com/ClickHouse/clickhouse-go
+github.com/ClickHouse/clickhouse-go/lib/binary
+github.com/ClickHouse/clickhouse-go/lib/cityhash102
+github.com/ClickHouse/clickhouse-go/lib/column
+github.com/ClickHouse/clickhouse-go/lib/data
+github.com/ClickHouse/clickhouse-go/lib/leakypool
+github.com/ClickHouse/clickhouse-go/lib/lz4
+github.com/ClickHouse/clickhouse-go/lib/protocol
+github.com/ClickHouse/clickhouse-go/lib/types
+github.com/ClickHouse/clickhouse-go/lib/writebuffer
+# github.com/bkaradzic/go-lz4 v1.0.0
+## explicit
+# github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58
+## explicit
+github.com/cloudflare/golz4
+# github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+## explicit
+github.com/golang/glog
+# github.com/kshvakov/clickhouse v1.3.7-0.20190412110519-e6e0ffadd2cc
+## explicit
+github.com/kshvakov/clickhouse/lib/binary
+github.com/kshvakov/clickhouse/lib/cityhash102
+github.com/kshvakov/clickhouse/lib/column
+github.com/kshvakov/clickhouse/lib/data
+github.com/kshvakov/clickhouse/lib/leakypool
+github.com/kshvakov/clickhouse/lib/lz4
+github.com/kshvakov/clickhouse/lib/protocol
+github.com/kshvakov/clickhouse/lib/writebuffer
+# github.com/patrickmn/go-cache v2.1.0+incompatible
+## explicit
+github.com/patrickmn/go-cache
+# github.com/pierrec/lz4 v2.6.1+incompatible
+## explicit
+# github.com/stretchr/testify v1.7.0
+## explicit
+# github.com/ua-parser/uap-go v0.0.0-20190303233514-1004ccd816b3
+## explicit
+github.com/ua-parser/uap-go/uaparser
+# gopkg.in/mcuadros/go-syslog.v2 v2.2.1
+## explicit
+gopkg.in/mcuadros/go-syslog.v2
+gopkg.in/mcuadros/go-syslog.v2/format
+gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser
+gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser/rfc3164
+gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser/rfc5424
+# gopkg.in/yaml.v2 v2.2.2
+## explicit
+gopkg.in/yaml.v2
